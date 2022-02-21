@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/86d1a461f8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <title>product</title>
+  </head>
+  <body>
+
+    <div class="popUp" id="popUp">
+      <h4 id="addedToCartText">Added to the cart</h4>  
+  </div>
+
+
+    <div class="header-icons">
+      <img src="icons/RETROCEDER.svg" alt="back arrow" />
+      <img src="icons/Vector.svg" alt="favourite" />
+    </div>
+
+    <div class="product-img">
+      <img src="img/fralds.png" alt="baby wipes" />
+    </div>
+
+    <div class="product-details">
+      <div class="product-details-header">
+        <div class="price">
+          <h1>26,53€</h1>
+        </div>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+      <div class="product-description">
+        <h2>Toalhitas BIO 12X60</h2>
+        <p>
+          WaterWipes BIO 12x60 unidades, são toalhitas que ajudam a limpar
+          suavemente a pele delicada do bebé, sem ressecar ou agredir a pele.
+          Hidratam, amaciam e suavizam, não irritando a pele e ajudando a
+          prevenir o eritema da fralda e outras maleitas.
+        </p>
+      </div>
+      <div class="product-footer">
+        <div class="quantity">
+          <i id="minusButton" class="fa-solid fa-minus"></i>
+          <p id="quantityChosen">0</p>
+          <i id="plusButton" class="fa-solid fa-plus"></i>
+        </div>
+        <button id="addToCart">Adicionar ao cesto</button>
+      </div>
+      <div class="related-products">
+        <h4>Artigos relacionados</h4>
+        <div class="slider-products">
+          <div class="product-slide">
+            <div class="product-slide-img">
+              <img src="img/waterwipes.png" alt="toalhitas" />
+            </div>
+            <div class="product-slide-description">
+              <p>Toalhitas de àgua BIO 60 uni.</p>
+            </div>
+          </div>
+
+          <div class="product-slide">
+            <div class="product-slide-img">
+              <img src="img/bolsas.png" alt="toalhitas" />
+            </div>
+            <div class="product-slide-description">
+              <p>Sacos perfurmados</p>
+            </div>
+          </div>
+
+          <div class="product-slide">
+            <div class="product-slide-img">
+              <img class="vertical-img" src="img/bolsas.png" alt="toalhitas" />
+            </div>
+            <div class="product-slide-description">
+              <p>Pomada muda da fralda Baby</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
